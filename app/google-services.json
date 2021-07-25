@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1089391309026",
+    "firebase_url": "https://epharmancovapp-default-rtdb.firebaseio.com",
+    "project_id": "epharmancovapp",
+    "storage_bucket": "epharmancovapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089391309026:android:74a17f85ec20f9095beebb",
+        "android_client_info": {
+          "package_name": "com.e_pharma.epharmancovapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089391309026-3jap9cljjb9mijfpo9t58n9cap82vfr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYJKwAdqQl08PkOYzxtkGNBkBKipB3dUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089391309026-3jap9cljjb9mijfpo9t58n9cap82vfr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

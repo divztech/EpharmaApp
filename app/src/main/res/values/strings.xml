@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">e-Pharma</string>
+    <string-array name="names">
+
+        <item>Aster Hospital,Al Qusais Dubai </item>
+        <item>Zulekha Hospital,Rolla Sharjah</item>
+        <item>Zulekha Hospital,Al Nahda Dubai</item>
+        <item>Medcare Hospital,King Faisal Sharjah</item>
+        <item>Thumbay Hospital,Dubai</item>
+        <item>Thumbay Hospital,Ajman</item>
+        <item>Thumbay Hospital,Fujairah</item>
+        <item>NMC Speciality Hospital,Abu Dhabi</item>
+        <item>RAK Hospital, Ras Al Khaimah</item>
+        <item>Sheikh Khalifa General Hospital, Umm Al Quwain</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_enter_your_phone_no_to_proceed_with_payment">Please enter your Phone no to proceed with payment:</string>
+</resources>

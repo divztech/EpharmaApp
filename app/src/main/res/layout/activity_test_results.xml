@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07814A4A"
+    android:outlineAmbientShadowColor="#8E2F2F"
+    android:outlineProvider="bounds"
+    tools:context=".TestResults">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="#F8070606"
+        android:backgroundTint="#00040C"
+        android:backgroundTintMode="src_in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg4" />
+
+    <TextView
+        android:id="@+id/result_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/domine"
+        android:text="RESULT"
+        android:textColor="@color/teal_700"
+        android:textFontWeight="800"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/testresult_label"
+        android:layout_width="217dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/domine"
+        android:text="Test Results are:"
+        android:textColor="@color/teal_700"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/result_field"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="444dp"
+
+        android:ems="10"
+        android:enabled="false"
+        android:fontFamily="@font/domine"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="800"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Viewbutton"
+        android:layout_width="93dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="540dp"
+        android:background="#7C4F0559"
+        android:text="Next"
+        android:textSize="16sp"
+        app:backgroundTint="@null"
+        app:cornerRadius="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/searchbutton"
+        android:layout_width="108dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="132dp"
+        android:background="#7C4F0559"
+        android:text="Search"
+        android:textSize="16sp"
+        app:backgroundTint="@null"
+        app:cornerRadius="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="172dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/domine"
+        android:text="Patient Name:"
+        android:textColor="@color/teal_700"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pcrno_label"
+        android:layout_width="108dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/domine"
+        android:text="PCR No:"
+        android:textColor="@color/teal_700"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="95dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="540dp"
+        android:background="#7A4F0559"
+        android:fontFamily="@font/domine"
+        android:text="back"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_field"
+        android:layout_width="195dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="208dp"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:editable="true"
+        android:ems="10"
+        android:enabled="false"
+        android:fontFamily="@font/domine"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textFontWeight="800"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pcr_field2"
+        android:layout_width="139dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="132dp"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:ems="10"
+        android:enabled="true"
+        android:fontFamily="@font/domine"
+        android:hint="Enter PCR No"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textFontWeight="800"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dot_label"
+        android:layout_width="172dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/domine"
+        android:text="Date of Test:"
+        android:textColor="@color/teal_700"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dot_field"
+        android:layout_width="169dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="280dp"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:editable="true"
+        android:ems="10"
+        android:enabled="false"
+        android:fontFamily="@font/domine"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textFontWeight="800"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

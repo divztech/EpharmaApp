@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.95"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="443dp"
+        android:layout_height="888dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:alpha="0.9"
+        android:background="#C8DEF3ED"
+        android:backgroundTintMode="src_in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="126dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="308dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Emirates ID"
+        android:textColor="#131111"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="105dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="456dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="MRD NO"
+        android:textColor="#232222"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="372dp"
+        android:ems="10"
+        android:fadingEdge="vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter Emirates ID"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="@color/black"
+        android:textSize="24sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="496dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter MRD No"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loginbuttonid"
+        android:layout_width="95dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#1C819A"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Submit"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="147dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/domine"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#100F0F"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="276dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="4dp"
+        android:foregroundTint="#982424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

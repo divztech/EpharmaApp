@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Card">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E7EFED">
+
+        <TextView
+            android:id="@+id/c_heading2"
+            android:layout_width="304dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/domine"
+            android:text="Please enter your card details :"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cno_label"
+            android:layout_width="94dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/domine"
+            android:text="Card No:-"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ex_label2"
+            android:layout_width="72dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="212dp"
+            android:fontFamily="@font/domine"
+            android:text="Expiry:-"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/exp_field1"
+            android:layout_width="142dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:fontFamily="@font/domine"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/cvv_field2"
+            android:layout_width="139dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="272dp"
+            android:ems="10"
+            android:fontFamily="@font/domine"
+            android:inputType="numberPassword"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:maxLength="3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/cn_field"
+            android:layout_width="145dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="124dp"
+            android:ems="10"
+            android:maxLength="12"
+            android:fontFamily="@font/domine"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="50dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="288dp"
+            android:fontFamily="@font/domine"
+            android:text="CVV"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
